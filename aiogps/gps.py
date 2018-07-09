@@ -17,9 +17,9 @@
 # The JSON parts of this (which will be reused by any new interface)
 # now live in a different module.
 #
-from gpspy3.misc import iso_time
-from gpspy3.client import *
-from gpspy3 import logger
+from aiogps.misc import iso_time
+from aiogps.client import *
+from aiogps import logger
 
 NaN = float('nan')
 

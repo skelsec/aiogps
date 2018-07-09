@@ -69,7 +69,7 @@ the run method in a subthread, with locking of critical regions.
 """
 import os, sys, time, signal, pty, termios # fcntl, array, struct
 import threading, socket, select # exceptions
-import gpspy3.gps
+import aiogps.gps
 import packet as sniffer
 
 # The two magic numbers below have to be derived from observation.  If

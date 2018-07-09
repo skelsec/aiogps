@@ -6,7 +6,7 @@ import socket
 import sys
 import select    #, exceptions
 import asyncio
-from gpspy3 import logger
+from aiogps import logger
 
 
 if sys.hexversion >= 0x2060000:
